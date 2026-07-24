@@ -1,0 +1,19 @@
+DirectoryIndex index.html
+Options -Indexes
+
+ErrorDocument 404 /404.html
+
+RedirectMatch 301 ^/writing/?$ /publications/
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ - [R=404,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
