@@ -101,7 +101,14 @@ try {
     }
 
     copyDirectory($extractedRoot, SITE_ROOT);
+    @unlink(SITE_ROOT . '/.deployment-error');
     file_put_contents(SITE_ROOT . '/.deployment-version', gmdate(DATE_ATOM) . PHP_EOL);
+} catch (Throwable $error) {
+    file_put_contents(
+        SITE_ROOT . '/.deployment-error',
+        gmdate(DATE_ATOM) . ' ' . $error->getMessage() . PHP_EOL
+    );
+    throw $error;
 } finally {
     removeDirectory($temporaryDirectory);
 }
