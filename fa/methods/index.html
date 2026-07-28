@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,87 +46,35 @@
     <script type="application/ld+json"
         data-person-seo="true"> { "@context": "https://schema.org", "@type": "Person", "@id": "https://mohsenmofidi.com/#person", "name": "Mohsen Mofidi Chelan", "alternateName": [ "Mohsen Mofidi", "محسن مفیدی", "محسن مفیدی چلان", "柳诤言" ], "url": "https://mohsenmofidi.com/", "image": "https://mohsenmofidi.com/mohsen-mofidi-chelan.jpg", "jobTitle": "International Relations Researcher", "knowsLanguage": [ "Persian", "English", "Chinese" ], "sameAs": [ "https://orcid.org/0000-0003-3884-3305", "https://scholar.google.com/citations?user=ce6z2KYAAAAJ&hl=en", "https://www.linkedin.com/in/mohsenmofidi/" ] } </script>
     <style>
-        .languageSwitcher {
-            position: fixed;
-            top: 0.8rem;
-            right: 0.8rem;
-            z-index: 1000;
-            display: flex;
-            gap: 0.2rem;
-            padding: 0.25rem;
-            border: 1px solid rgba(15, 23, 42, 0.18);
-            border-radius: 999px;
-            background: rgba(255, 255, 255, 0.94);
-            box-shadow: 0 4px 18px rgba(15, 23, 42, 0.12);
-            backdrop-filter: blur(8px);
-        }
-
-        .languageSwitcher a {
-            padding: 0.35rem 0.55rem;
-            border-radius: 999px;
-            color: #172033;
-            text-decoration: none;
-            font: 600 0.75rem/1 system-ui, sans-serif;
-        }
-
-        .languageSwitcher a[aria-current="page"] {
-            color: #ffffff;
-            background: #172033;
-        }
-
-        html[dir="rtl"] .languageSwitcher {
-            right: auto;
-            left: 0.8rem;
-        }
-
         html[dir="rtl"] body {
             text-align: right;
         }
-
         html[lang="fa"] .pageHero h1 {
             line-height: 1.45;
         }
-
         html[lang="fa"] .pageHero>p {
             line-height: 2;
         }
-
         html[lang="fa"] .methodStack h3,
         html[lang="fa"] .editorialContent h2 {
             line-height: 1.55;
         }
-
         html[lang="fa"] .methodStack p,
         html[lang="fa"] .editorialContent>section>p,
         html[lang="fa"] .developing p {
             line-height: 2;
         }
-
         html[lang="fa"] .workflowList strong {
             line-height: 1.7;
         }
-
         @media (max-width: 700px) {
-            .languageSwitcher {
-                top: 0.45rem;
-                right: 0.45rem;
-            }
-
-            html[dir="rtl"] .languageSwitcher {
-                right: auto;
-                left: 0.45rem;
-            }
-
             html[lang="fa"] .pageHero h1 {
                 line-height: 1.55;
             }
         }
     </style>
 </head>
-
 <body>
-    <div class="languageSwitcher" aria-label="انتخاب زبان"> <a href="/methods/">EN</a> <a href="/fa/methods/"
-            aria-current="page">فارسی</a> <a href="/zh/methods/">中文</a> </div>
     <header class="siteHeader"> <a href="/fa/" class="brand"> <img class="brandMark" src="/mmc.svg" alt=""
                 aria-hidden="true"> <strong>محسن مفیدی چلان</strong> </a> <button class="menuButton" type="button"
             aria-expanded="false" aria-controls="main-navigation"> فهرست </button>
@@ -251,15 +198,9 @@
         <div> <strong>محسن مفیدی چلان</strong>
             <p> سیاست خارجی چین · روابط چین و خاورمیانه · روایت‌های راهبردی </p>
         </div>
-        <nav class="footerLinks" aria-label="پیوندهای پایین صفحه"> <a href="/fa/research/">پژوهش</a> <a
-                href="/fa/publications/">آثار و انتشارات</a> <a href="/fa/methods/">روش‌ها</a> <a
-                href="https://orcid.org/0000-0003-3884-3305" target="_blank" rel="noreferrer"> ORCID ↗ </a> <a
-                href="https://scholar.google.com/citations?user=ce6z2KYAAAAJ&amp;hl=en" target="_blank"
-                rel="noreferrer"> Google Scholar ↗ </a> <a href="https://www.linkedin.com/in/mohsenmofidi/"
-                target="_blank" rel="noreferrer"> LinkedIn ↗ </a> <a href="/fa/contact/">تماس</a> </nav>
+        <nav class="footerLinks" aria-label="Footer navigation"><a href="https://orcid.org/0000-0003-3884-3305" target="_blank" rel="noreferrer">ORCID ↗</a><a href="https://scholar.google.com/citations?user=ce6z2KYAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar ↗</a><a href="https://www.linkedin.com/in/mohsenmofidi/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="/fa/contact/">تماس</a><a class="languageFooterLink" href="/methods/">English version</a><a class="languageFooterLink" href="/zh/methods/">中文版</a></nav>
         <p>© 2026</p>
     </footer>
     <script> document.addEventListener("DOMContentLoaded", () => { const button = document.querySelector(".menuButton"); const navigation = document.querySelector("#main-navigation"); if (button && navigation) { button.addEventListener("click", () => { const isOpen = navigation.getAttribute("data-open") === "true"; navigation.setAttribute("data-open", String(!isOpen)); button.setAttribute("aria-expanded", String(!isOpen)); }); } }); </script>
 </body>
-
 </html>

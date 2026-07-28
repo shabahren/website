@@ -7,6 +7,14 @@ RedirectMatch 301 ^/writing/?$ /publications/
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
+
+# Permanently retire legacy WordPress taxonomy and numeric post URLs.
+# Keep these rules before the existing-file check so /?p=123 does not
+# resolve to the current homepage.
+RewriteRule ^(?:tag|category)(?:/|$) - [G,L,NC]
+RewriteCond %{QUERY_STRING} (^|&)p=[0-9]+(?:&|$) [NC]
+RewriteRule ^ - [G,L]
+
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
