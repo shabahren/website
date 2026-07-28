@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://mohsenmofidi.com/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/</loc></url>
-<url><loc>https://mohsenmofidi.com/research/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/research/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/research/</loc></url>
-<url><loc>https://mohsenmofidi.com/publications/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/publications/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/publications/</loc></url>
-<url><loc>https://mohsenmofidi.com/projects/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/projects/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/projects/</loc></url>
-<url><loc>https://mohsenmofidi.com/methods/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/methods/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/methods/</loc></url>
-<url><loc>https://mohsenmofidi.com/about/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/about/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/about/</loc></url>
-<url><loc>https://mohsenmofidi.com/cv/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/cv/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/cv/</loc></url>
-<url><loc>https://mohsenmofidi.com/contact/</loc></url>
-<url><loc>https://mohsenmofidi.com/fa/contact/</loc></url>
-<url><loc>https://mohsenmofidi.com/zh/contact/</loc></url>
+  <url><loc>https://mohsenmofidi.com/</loc></url>
+  <url><loc>https://mohsenmofidi.com/about/</loc></url>
+  <url><loc>https://mohsenmofidi.com/contact/</loc></url>
+  <url><loc>https://mohsenmofidi.com/cv/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/about/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/contact/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/cv/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/methods/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/projects/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/publications/</loc></url>
+  <url><loc>https://mohsenmofidi.com/fa/research/</loc></url>
+  <url><loc>https://mohsenmofidi.com/methods/</loc></url>
+  <url><loc>https://mohsenmofidi.com/projects/</loc></url>
+  <url><loc>https://mohsenmofidi.com/publications/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/china-middle-east-relations/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/chinese-foreign-policy/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/foreign-policy-decision-making/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/international-order/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/leadership-perceptions/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research-notes/topics/strategic-narratives/</loc></url>
+  <url><loc>https://mohsenmofidi.com/research/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/about/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/contact/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/cv/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/methods/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/projects/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/publications/</loc></url>
+  <url><loc>https://mohsenmofidi.com/zh/research/</loc></url>
 </urlset>
